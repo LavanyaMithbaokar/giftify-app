@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584601497448",
+    "project_id": "giftify-base",
+    "storage_bucket": "giftify-base.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584601497448:android:611c40400424cb4dbb70dd",
+        "android_client_info": {
+          "package_name": "com.example.giftify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_JDRX_NyecNFFTH4Hs8QGJlbQXhkphdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
