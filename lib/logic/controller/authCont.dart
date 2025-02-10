@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -9,6 +10,8 @@ import 'package:giftify/data/repositories/googleServices.dart';
 import 'package:giftify/logic/provider/auth.dart';
 import 'package:giftify/logic/provider/user.dart';
 import 'package:giftify/pages/homepage.dart';
+import 'package:giftify/pages/login.dart';
+import 'package:giftify/pages/nav.dart';
 import 'package:giftify/pages/signup.dart';
 
 class AuthController extends GetxController {
@@ -28,6 +31,14 @@ class AuthController extends GetxController {
               phone: phone,
               image: "",
             );
+            // CollectionReference collRef =
+            //     FirebaseFirestore.instance.collection('users');
+            // collRef.add({
+            //   'name': name,
+            //   'email': email,
+            //   'phoneNo': phone,
+            //   'password': password,
+            // });
 
             await ref
                 .watch(userStateProvider.notifier)
@@ -36,7 +47,7 @@ class AuthController extends GetxController {
             Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => HomePage(),
+                  builder: (context) => Nav(),
                 ));
           }
         },
@@ -70,7 +81,7 @@ class AuthController extends GetxController {
           Navigator.pushReplacement(
               context,
               MaterialPageRoute(
-                builder: (context) => HomePage(),
+                builder: (context) => Nav(),
               ));
         }
       },
@@ -86,7 +97,7 @@ class AuthController extends GetxController {
 
     Navigator.pushReplacement(context, MaterialPageRoute(
       builder: (context) {
-        return SignUp();
+        return Login();
       },
     ));
   }
@@ -100,7 +111,7 @@ class AuthController extends GetxController {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => HomePage(),
+            builder: (context) => Nav(),
           ));
     } on FirebaseAuthException catch (e) {
       ScaffoldMessenger.of(context)

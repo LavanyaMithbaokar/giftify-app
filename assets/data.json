@@ -1,0 +1,275 @@
+
+{
+    "data":{
+        "home":{
+
+            "slider":[
+                
+                {
+                    "name":"",
+                    "desc":"",
+                    "imageUrl":""
+                },
+                {
+                    "name":"",
+                    "desc":"",
+                    "imageUrl":""
+                },
+                {
+                    "name":"",
+                    "desc":"",
+                    "imageUrl":""
+                }
+            ],
+
+        
+            "categories":[
+            {
+                    "name":"",
+                    "imageUrl":""
+                },
+                {
+                    "name":"",
+                    "imageUrl":""
+                },
+                {
+                    "name":"",
+                    "imageUrl":""
+                },
+                {
+                    "name":"",
+                    "imageUrl":""
+                },
+                {
+                    "name":"",
+                    "imageUrl":""
+                },
+                {
+                    "name":"",
+                    "imageUrl":""
+                }
+            ]
+        },
+
+        "Events":[
+            {
+                "name":"Birthday",
+                "imageUrl":"",
+                "products":{}
+            },
+            {
+                "name":"Annivarsary",
+                "imageUrl":"",
+                "products":{}
+            },
+            {
+                "name":"Engagement",
+                "imageUrl":"",
+                "products":{}
+            },
+            {
+                "name":"HouseWarming",
+                "imageUrl":"",
+                "products":{}
+            },
+            {
+                "name":"GiftBasket",
+                "imageUrl":"",
+                "products":{}
+            },
+            {
+                "name":"",
+                "imageUrl":"",
+                "products":{}
+            }
+        ],
+
+
+        "categories":{
+            "c1":{
+                "name":"Cake",
+                "imageUrl":"",
+                "products":[
+                   {
+                        "name":"Chocolate Truffle Cake",
+                        "desc":"Chocolate Truffle Cake with moist chocolate sponge, whipped dark chocolate truffle mouse filling and chocolate ganache glaze.",
+                        "imgUrl":"",
+                        "review":"4.8",
+                        "price":"600",
+                        "weight":"600gms",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Vanilla Bento Cake",
+                        "desc":"Vanilla Benyo cake with light and airy vanilla sponge, layered with creamy frosting and adorned with charming decorations.",
+                        "imgUrl":"",
+                        "review":"4.8",
+                        "price":"350",
+                        "weight":"250gms",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Red Velvet Cake",
+                        "desc":"Red Velvet cake with Three moist layers of stunning Red Velvet filled and topped with silky cream cheese icing and finished with white chocolate drizzle.",
+                        "imgUrl":"",
+                        "review":"4.5",
+                        "price":"500",
+                        "weight":"600gms",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Peanut Butter Chocolate Cake",
+                        "desc":"Chocolate peanut butter cake combines rich chocolate cake with creamy peanut butter frosting and smooth chocolate ganache.",
+                        "imgUrl":"",
+                        "review":"4.5",
+                        "price":"600",
+                        "weight":"1kg",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Chocolate Fudge Cake",
+                        "desc":"Chocolate Fudge cake come with insanely moist and fluffy chocolate sponge, topped with a rich fudge frosting.",
+                        "imgUrl":"",
+                        "review":"4.7",
+                        "price":"600",
+                        "weight":"1kg",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Designer Cake",
+                        "desc":"",
+                        "imgUrl":"",
+                        "review":"4.7",
+                        "price":"1600",
+                        "weight":"1.5kg",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Vanilla Bento Cake",
+                        "desc":"",
+                        "imgUrl":"",
+                        "review":"4.2",
+                        "price":"300",
+                        "weight":"250gms",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Triple Chocolate Cake",
+                        "desc":"",
+                        "imgUrl":"",
+                        "review":"4.4",
+                        "price":"1000",
+                        "weight":"1kg",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Macaroon Cake",
+                        "desc":"",
+                        "imgUrl":"",
+                        "review":"4.3",
+                        "price":"500",
+                        "weight":"500gms",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Bow Bento Cake",
+                        "desc":"",
+                        "imgUrl":"",
+                        "review":"4.5",
+                        "price":"350",
+                        "weight":"300gms",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Strawberry Cheesecake",
+                        "desc":"",
+                        "imgUrl":"",
+                        "review":"4,4",
+                        "price":"",
+                        "weight":"",
+                        "logo":"Eggless"
+                    },
+                    {
+                        "name":"Lotus Biscoff Cheesecake",
+                        "desc":"",
+                        "imgUrl":"",
+                        "review":"",
+                        "price":"",
+                        "weight":"",
+                        "logo":"Eggless"
+                    }
+                ]
+            },
+            "c2":{
+                "name":"Bouquet",
+                "imageUrl":"",
+                "products":[
+                    {
+                        "name":"Red Rose Bouquet",
+                        "desc":"30 attractive Red Roses with Gypsophila hand tied Bunch wrapped with Black color sheets",
+                        "imgUrl":"",
+                        "review":"4.1",
+                        "price":"300"
+                    },
+                    {
+                        "name":"Mix Rose Bouquet",
+                        "desc":"18 Mix coloured rose bouquet with white wrapping.",
+                        "imgUrl":"",
+                        "review":"4.2",
+                        "price":"400"
+                    },
+                    {
+                        "name":"White Lily Bouquet",
+                        "desc":"Bouquet of 5 stems of white lilies with fillers and white wrapping",
+                        "imgUrl":"",
+                        "review":"4.0",
+                        "price":"450"
+                    },
+                    {
+                        "name":"Pink Rose Bouquet",
+                        "desc":"12 Premium quality Pink Roses with Jute Wrap Packing and Fresh green leaf Fillers",
+                        "imgUrl":"",
+                        "review":"4.3",
+                        "price":"500"
+                    },
+                    {
+                        "name":"White Rose Bouquet",
+                        "desc":"20 premium quality white roses with fillers and black wrapping",
+                        "imgUrl":"",
+                        "review":"4.4",
+                        "price":"600"
+                    },
+                    {
+                        "name":"Sunflower Bouquet",
+                        "desc":"5 stem sunflower bouquet with baby's-breath",
+                        "imgUrl":"",
+                        "review":"4.6",
+                        "price":"400"
+                    }
+                ]
+            },
+            "c3":{
+                "name":"Soft Toys",
+                "imageUrl":"",
+                "products":{}
+            },
+            "c4":{
+                "name":"Chocolate",
+                "imageUrl":"",
+                "products":{}
+            },
+            "c5":{
+                "name":"Perfumes",
+                "imageUrl":"",
+                "products":{}
+            },
+            "c6":{
+                "name":"Gift Basket",
+                "imageUrl":"",
+                "products":{}
+            }
+        }
+    }
+
+    
+}

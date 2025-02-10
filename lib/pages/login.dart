@@ -69,13 +69,14 @@ class _LoginState extends ConsumerState<Login> {
           builder: (ctrl) {
             return SingleChildScrollView(
               child: Container(
+                color: Colors.cyan[100],
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height,
-                decoration: const BoxDecoration(
-                  image: DecorationImage(
-                      image: AssetImage("assets/images/bg.png"),
-                      fit: BoxFit.cover),
-                ),
+                // decoration: const BoxDecoration(
+                //   image: DecorationImage(
+                //       image: AssetImage("assets/images/bg.png"),
+                //       fit: BoxFit.cover),
+                // ),
                 child: Form(
                     child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -83,17 +84,17 @@ class _LoginState extends ConsumerState<Login> {
                   children: [
                     const Gap(150),
                     Image.asset(
-                      "assets/images/logo.png",
-                      width: (MediaQuery.of(context).size.width / 2) - 80,
-                      height: (MediaQuery.of(context).size.height / 2) - 240,
+                      "assets/images/logo1.png",
+                      width: (MediaQuery.of(context).size.width / 2) - 60,
+                      height: (MediaQuery.of(context).size.height / 2) - 320,
                     ),
-                    const Text(
-                      "GIFTIFY",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w900,
-                      ),
-                    ),
+                    // const Text(
+                    //   "Login",
+                    //   style: TextStyle(
+                    //     fontSize: 40,
+                    //     fontWeight: FontWeight.w900,
+                    //   ),
+                    // ),
                     const Gap(20),
                     Container(
                       padding: EdgeInsets.symmetric(horizontal: 40),
@@ -145,27 +146,51 @@ class _LoginState extends ConsumerState<Login> {
                             ),
                           ),
                         )),
-                    Gap(40),
-                    SizedBox(
-                      width: (MediaQuery.of(context).size.width / 2) - 60,
-                      child: ElevatedButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => SignUp(),
-                              ));
-                        },
-                        child: const Text(
-                          "Sign Up",
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w300,
+                    Gap(20),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 90),
+                      child: Row(
+                        children: [
+                          Text("Don't have and account? "),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.pushReplacement(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => SignUp(),
+                                  ));
+                            },
+                            child: Text(
+                              "Sign Up",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                           ),
-                        ),
+                        ],
                       ),
                     ),
+
+                    // SizedBox(
+                    //   width: (MediaQuery.of(context).size.width / 2) - 60,
+                    //   child: ElevatedButton(
+                    //     onPressed: () {
+                    //       Navigator.push(
+                    //           context,
+                    //           MaterialPageRoute(
+                    //             builder: (context) => SignUp(),
+                    //           ));
+                    //     },
+                    //     child: const Text(
+                    //       "Sign Up",
+                    //       style: TextStyle(
+                    //         color: Colors.black,
+                    //         fontSize: 20,
+                    //         fontWeight: FontWeight.w300,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
+                    Gap(20),
+                    // Text("Or login with"),
                     IconButton(
                       icon: Image.asset(
                         'assets/images/google.png',
@@ -177,7 +202,6 @@ class _LoginState extends ConsumerState<Login> {
                       tooltip: 'Like',
                       onPressed: () {
                         ctrl.googleSignin(context);
-                        // print('IconButton pressed') ;
                       },
                     ),
                   ],

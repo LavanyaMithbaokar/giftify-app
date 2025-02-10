@@ -3,8 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:giftify/logic/bloc/splash_bloc.dart';
 import 'package:giftify/logic/bloc/splash_state.dart';
+import 'package:giftify/pages/bottomnav.dart';
 import 'package:giftify/pages/homepage.dart';
 import 'package:giftify/pages/login.dart';
+import 'package:giftify/pages/nav.dart';
 import 'package:giftify/pages/signup.dart';
 import 'package:giftify/pages/splash.dart';
 
@@ -25,7 +27,8 @@ class _MainPageState extends State<MainPage> {
         } else if (state is AuthState) {
           return Login();
         } else if (state is HomeState) {
-          return HomePage();
+          return Nav();
+          //return HomePage();
         } else {
           return SplashPages();
         }

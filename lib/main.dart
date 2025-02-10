@@ -6,9 +6,7 @@ import 'package:get/get.dart';
 import 'package:giftify/firebase_options.dart';
 import 'package:giftify/logic/bloc/splash_bloc.dart';
 import 'package:giftify/logic/dependancies.dart';
-import 'package:giftify/pages/homepage.dart';
 import 'package:giftify/pages/main_page.dart';
-import 'package:giftify/pages/signup.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,6 +35,7 @@ class MyApp extends StatelessWidget {
             useMaterial3: true,
           ),
           home: MainPage(),
+          //home: Checkout(),
         ),
       ),
     );
